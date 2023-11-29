@@ -11,15 +11,14 @@ $ git clone https://github.com/adinarayana02/whatsapp_bot <br>
 $ cd whatsapp-chatgpt <br>
 $ npm install <br>
 $ node index.js <br>
-
-<br> NOTE: SETUP KEYS IN accesser.json
-
+<h4><br> NOTE: SETUP KEYS IN accesser.json
+</h4>
 
 # How to get OpenAI API?
 Visit: https://beta.openai.com/account/api-keys
 
 <div align="center">
   <a href="https://www.instagram.com/adinarayan02/">
-    <img src="https://img.shields.io/badge/Follow%20%40harshitethic-Follow%20on%20Instagram-833AB4?logo=instagram&style=for-the-badge" alt="Instagram follow button">
+    <img src="https://img.shields.io/badge/Follow%20%40Adianarayana-Follow%20on%20Instagram-833AB4?logo=instagram&style=for-the-badge" alt="Instagram follow button">
   </a>
 </div>
