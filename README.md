@@ -8,7 +8,7 @@ NOTE: DON'T MESS UP WITH INDEX.JS FILE. <br>
 
 # How to Install? 
 $ git clone https://github.com/adinarayana02/whatsapp_bot <br>
-$ cd whatsapp-chatgpt <br>
+$ cd whatsapp_bot <br>
 $ npm install <br>
 $ node index.js <br>
 <h4><br> NOTE: SETUP KEYS IN accesser.json
