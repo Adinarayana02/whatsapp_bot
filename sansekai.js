@@ -4,7 +4,7 @@ const util = require('util')
 const chalk = require('chalk')
 const { Configuration, OpenAIApi } = require("openai")
 let setting = require('./accesser.json')
-const BOT_NAME = process.env.BOT_NAME ?? "Harshit ethic";
+const BOT_NAME = process.env.BOT_NAME ?? "Adinarayana";
 
 module.exports = sansekai = async (client, m, chatUpdate, store) => {
     try {
@@ -64,7 +64,7 @@ module.exports = sansekai = async (client, m, chatUpdate, store) => {
         if (setting.autoAI) {
             if (budy) {
                 try {
-                    if (setting.keyopenai === 'ISI_APIKEY_OPENAI_DISINI') return reply('Apikey belum diisi\n\nSilahkan isi terlebih dahulu apikeynya di file key.json\n\nApikeynya bisa dibuat di website: https://beta.openai.com/account/api-keys')
+                    if (setting.keyopenai === 'ISI_APIKEY_OPENAI_DISINI') return reply('Api key belum diisi\n\nSilahkan isi terlebih dahulu apikeynya di file key.json\n\nApikeynya bisa dibuat di website: https://beta.openai.com/account/api-keys')
                     const configuration = new Configuration({
                         apiKey: setting.keyopenai,
                     });
@@ -73,7 +73,7 @@ module.exports = sansekai = async (client, m, chatUpdate, store) => {
                     let prompt_template =
                         "I am artificial intelligence " +
                         BOT_NAME +
-                        " developed by a Harshit Sharma.\n\nHuman: Hi. How are you?\n" +
+                        " developed by a Adinarayana.\n\nHuman: Hi. How are you?\n" +
                         BOT_NAME +
                         ": I'm well. How can I help you?\nHuman: " +
                         budy +
@@ -122,7 +122,7 @@ module.exports = sansekai = async (client, m, chatUpdate, store) => {
                             m.reply(`${response.data.choices[0].text}\n\n`)
                         } catch (err) {
                             console.log(err)
-                            m.reply('Maaf, sepertinya ada yang error')
+                            m.reply('sorry,it is error')
                         }
                         break
                     default: {
